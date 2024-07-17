@@ -1,0 +1,106 @@
+/* Mengatur gaya dasar untuk seluruh tubuh halaman */
+body {
+    font-family: Arial, sans-serif; /* Mengatur jenis huruf ke Arial atau sans-serif */
+    display: flex; /* Mengatur tampilan sebagai flexbox */
+    flex-direction: column; /* Menyusun item flex dalam kolom */
+    align-items: center; /* Menyelaraskan item flex di tengah secara horizontal */
+    justify-content: center; /* Menyelaraskan item flex di tengah secara vertikal */
+    height: 100vh; /* Mengatur tinggi halaman menjadi 100% tinggi viewport */
+    margin: 0; /* Menghapus margin default */
+    background-color: #f0f0f0; /* Mengatur warna latar belakang halaman */
+
+}
+.flex-container{
+    display: flex; /* Mengatur tampilan sebagai flexbox */
+    justify-content: space-between; /* Menyelaraskan item flex dengan jarak di antara mereka */
+    width: 98%; /* Mengatur lebar elemen footer */
+    padding: 10px 20px; /* Menambahkan ruang di dalam footer */
+    background: white; /* Mengatur latar belakang putih */
+    bottom: 0; /* Menempatkan elemen di bagian bawah halaman */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus di atas footer */
+}
+.float-a {
+    float: left;
+    width: 98px;
+    margin-right: 25px; /* Jarak antara gambar dan teks */
+}
+
+.float-b {
+    float: right;
+    width: 100px;
+    margin-left: 25px; /* Jarak antara gambar dan teks */
+    
+}
+.float-c {
+    float: right;
+    width: 100px;
+    margin-left: 25px; /* Jarak antara gambar dan teks */
+}
+
+/* Mengatur gaya untuk elemen header */
+header {
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+    background: rgb(247, 245, 245); /* Mengatur latar belakang putih */
+    padding: 75px; /* Menambahkan ruang di dalam elemen */
+    border-radius: 8px; /* Membuat sudut elemen menjadi membulat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus di sekitar elemen */
+}
+
+/* Mengatur gaya untuk logo */
+.logo {
+    width: 100px; /* Mengatur lebar logo */
+    margin-bottom: 20px; /* Menambahkan margin bawah */
+}
+
+/* Mengatur gaya untuk gambar game */
+.game-image {
+    width: 50px; /* Mengatur lebar gambar game */
+    margin: 20px 0; /* Menambahkan margin atas dan bawah */
+}
+
+/* Mengatur gaya untuk input teks */
+input {
+    padding: 10px; /* Menambahkan ruang di dalam input */
+    margin: 10px 0; /* Menambahkan margin atas dan bawah */
+    border-radius: 5px; /* Membuat sudut input menjadi membulat */
+    border: 1px solid #ccc; /* Mengatur border input */
+    width: calc(100% - 22px); /* Mengatur lebar input agar mengisi seluruh lebar yang tersedia */
+}
+
+/* Mengatur gaya untuk tombol */
+button {
+    padding: 10px 20px; /* Menambahkan ruang di dalam tombol */
+    margin: 10px; /* Menambahkan margin */
+    border: none; /* Menghapus border default */
+    border-radius: 5px; /* Membuat sudut tombol menjadi membulat */
+    background-color: #28a745; /* Mengatur warna latar belakang tombol */
+    color: white; /* Mengatur warna teks tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
+}
+
+/* Mengatur gaya untuk tombol saat dihover */
+button:hover {
+    background-color: #218838; /* Mengubah warna latar belakang saat tombol dihover */
+}
+
+/* Mengatur gaya untuk elemen footer */
+footer {
+    display: flex; /* Mengatur tampilan sebagai flexbox */
+    justify-content: space-between; /* Menyelaraskan item flex dengan jarak di antara mereka */
+    width: 98%; /* Mengatur lebar elemen footer */
+    padding: 10px 20px; /* Menambahkan ruang di dalam footer */
+    background: white; /* Mengatur latar belakang putih */
+    position: fixed; /* Mengatur posisi menjadi tetap di bagian bawah halaman */
+    bottom: 0; /* Menempatkan elemen di bagian bawah halaman */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus di atas footer */
+}
+
+/* Mengatur gaya untuk ikon sosial media di footer */
+footer img {
+    width: 30px; /* Mengatur lebar ikon */
+}
+
+/* Mengatur gaya untuk teks dalam elemen footer */
+footer p {
+    margin: 0; /* Menghapus margin default */
+}

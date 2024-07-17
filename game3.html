@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTP LEVEL 3</title>
+    <link rel="icon" href="assets/IMAGE/logoaplikasi.jpg" type="jpg">
+    <link rel="stylesheet" href="assets/CSS/game.css">
+</head>
+<body>
+    <img src="assets/IMAGE/logopolibang.jpg" alt="Gambar Kiri" class="float-left">
+    <div class="game-container">
+        <div class="header">
+            <div class="timer">🕒 <span id="timer">60</span>s</div>
+            <div class="logo">guess the picture</div>
+        </div>
+        <div class="question-container">
+            <img id="question-image" alt="Question Image" class="question-image">
+            <div id="question-text" class="question-text">Dynamic Text soalTxt</div>
+        </div>
+        <div class="answers">
+            <button class="answer-button" onclick="checkAnswer(0)">Jawaban</button>
+            <button class="answer-button" onclick="checkAnswer(1)">Jawaban</button>
+            <button class="answer-button" onclick="checkAnswer(2)">Jawaban</button>
+            <button class="answer-button" onclick="checkAnswer(3)">Jawaban</button>
+        </div>
+        <div id="continue-button-container" class="hidden">
+            <button id="continue-button" class="continue-button" onclick="continueGame()">Lanjutkan Level Selanjutnya</button>
+        </div>        
+    </div>
+    <img src="assets/IMAGE/logoaplikasi.jpg" alt="Gambar Kanan" class="float-right">
+    <script src="assets/JS/game3.js"></script>
+</body>
+</html>
+

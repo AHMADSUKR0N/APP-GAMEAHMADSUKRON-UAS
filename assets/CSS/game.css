@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif; /* Mengatur jenis huruf untuk seluruh halaman */
+    background-color: #f3e5ab; /* Mengatur warna latar belakang halaman */
+    display: flex; /* Menggunakan flexbox untuk pengaturan tata letak */
+    justify-content: center; /* Menempatkan konten di tengah secara horizontal */
+    align-items: center; /* Menempatkan konten di tengah secara vertikal */
+    height: 100vh; /* Mengatur tinggi halaman sebesar 100% viewport height */
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.float-left {
+    float: left;
+    width: 98px;
+    margin-right: 200px; /* Jarak antara gambar dan teks */
+}
+
+.float-right {
+    float: right;
+    width: 100px;
+    margin-left: 200px; /* Jarak antara gambar dan teks */
+}
+.game-container {
+    background-color: #fff; /* Mengatur warna latar belakang kontainer game */
+    border: 2px solid #ccc; /* Mengatur garis tepi kontainer game */
+    border-radius: 10px; /* Membulatkan sudut-sudut kontainer */
+    padding: 20px; /* Memberi ruang di dalam kontainer */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan pada kontainer */
+    text-align: center; /* Mengatur teks di dalam kontainer menjadi rata tengah */
+    width: 300px; /* Mengatur lebar kontainer */
+}
+
+.header {
+    display: flex; /* Menggunakan flexbox untuk header */
+    justify-content: space-between; /* Mengatur elemen dalam header menjadi berjauhan */
+    align-items: center; /* Menempatkan elemen dalam header di tengah secara vertikal */
+    margin-bottom: 20px; /* Memberi jarak di bawah header */
+}
+
+.timer {
+    font-size: 20px; /* Mengatur ukuran font untuk timer */
+    color: green; /* Mengatur warna teks timer */
+}
+
+.logo {
+    font-size: 24px; /* Mengatur ukuran font untuk logo */
+    font-weight: bold; /* Membuat teks logo tebal */
+    color: #ff6347; /* Mengatur warna teks logo */
+}
+
+.question-container {
+    margin-bottom: 20px; /* Memberi jarak di bawah kontainer pertanyaan */
+}
+
+.question-image {
+    width: 100px; /* Mengatur lebar gambar pertanyaan */
+    height: auto; /* Mengatur tinggi gambar agar otomatis menyesuaikan proporsi */
+}
+
+.question-text {
+    font-size: 18px; /* Mengatur ukuran font untuk teks pertanyaan */
+    margin: 10px 0; /* Memberi jarak vertikal di atas dan bawah teks pertanyaan */
+}
+
+.answers {
+    display: flex; /* Menggunakan flexbox untuk kontainer jawaban */
+    flex-wrap: wrap; /* Membuat jawaban bisa membungkus ke baris berikutnya */
+    justify-content: space-between; /* Mengatur jawaban agar berjauhan */
+}
+
+.answer-button {
+    background-color: #00f; /* Mengatur warna latar belakang tombol jawaban */
+    color: #fff; /* Mengatur warna teks tombol jawaban */
+    border: none; /* Menghilangkan garis tepi tombol */
+    border-radius: 5px; /* Membulatkan sudut tombol */
+    padding: 10px; /* Memberi ruang dalam tombol */
+    margin: 5px; /* Memberi jarak luar tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan ke tombol */
+    flex: 1 0 45%; /* Mengatur tombol agar mengisi ruang yang tersedia dalam baris */
+    font-size: 16px; /* Mengatur ukuran font tombol */
+}
+
+.answer-button:hover {
+    background-color: #005fbb; /* Mengubah warna latar belakang tombol saat diarahkan */
+}
+
+.continue-button {
+    background-color: #ff6347; /* Mengatur warna latar belakang tombol lanjut */
+    color: #fff; /* Mengatur warna teks tombol lanjut */
+    border: none; /* Menghilangkan garis tepi tombol */
+    border-radius: 5px; /* Membulatkan sudut tombol */
+    padding: 10px; /* Memberi ruang dalam tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan ke tombol */
+    font-size: 16px; /* Mengatur ukuran font tombol */
+    margin-top: 20px; /* Memberi jarak di atas tombol */
+}
+
+.continue-button:hover {
+    background-color: #cc5140; /* Mengubah warna latar belakang tombol saat diarahkan */
+}
+
+.menu-button {
+    background-color: #ff6347; /* Mengatur warna latar belakang tombol menu */
+    color: #fff; /* Mengatur warna teks tombol menu */
+    text-decoration: none; /* Menghilangkan garis bawah pada teks tombol */
+    border: none; /* Menghilangkan garis tepi tombol */
+    border-radius: 5px; /* Membulatkan sudut tombol */
+    padding: 10px; /* Memberi ruang dalam tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan ke tombol */
+    font-size: 16px; /* Mengatur ukuran font tombol */
+    margin-top: 20px; /* Memberi jarak di atas tombol */
+    display: inline-block; /* Mengatur tombol agar tidak mengambil seluruh lebar */
+}
+
+.menu-button:hover {
+    background-color: #cc5140; /* Mengubah warna latar belakang tombol saat diarahkan */
+}
+
+.hidden {
+    display: none; /* Menyembunyikan elemen yang memiliki kelas ini */
+}

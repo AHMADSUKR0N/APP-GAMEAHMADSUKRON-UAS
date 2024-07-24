@@ -51,7 +51,7 @@ function startGame() {
             clearInterval(timerInterval);
             alert('Game Over! Waktu Habis.');
             showScore();
-            window.location.href = 'frontpage.html';
+            window.location.replace("frontpage.html");
         }
     }, 1000);
 }
@@ -106,7 +106,7 @@ function showScore() {
         currentLevel++;
         if (currentLevel > 4) {
             alert('Anda telah menyelesaikan semua level!');
-            window.location.href = 'level.html';
+            window.location.replace("level.html");
         } else {
             document.getElementById('continue-button-container').classList.remove('hidden');
             document.getElementById('continue-button').innerText = "Lanjutkan Level Selanjutnya";
@@ -140,5 +140,6 @@ function showResults() {
     });
     alert(resultText);
 }
+
 
 startGame();

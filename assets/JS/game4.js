@@ -58,7 +58,7 @@ function startGame() {
             clearInterval(timerInterval);
             alert('Game Over! Waktunya Selesai.');
             showScore();
-            window.location.href = 'frontpage.html';
+            window.location.replace("frontpage.html");
         }
     }, 1000);
 }
@@ -117,7 +117,7 @@ function showScore() {
     if (currentLevel === 4 && score >= 50) {
         showCongratulations();
     } else {
-        window.location.href = 'level.html';
+        window.location.replace("level.html");
     }
 }
 

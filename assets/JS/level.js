@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', function() {
             lockLevel('level2', 'Anda harus memperoleh skor minimal 50 di Level 1 untuk membuka Level 2.');
         }
 
-        if (level2Score < 50) {
-            lockLevel('level3', 'Anda harus memperoleh skor minimal 50 di Level 2 untuk membuka Level 3.');
+        if (level2Score < 80) {
+            lockLevel('level3', 'Anda harus memperoleh skor minimal 80 di Level 2 untuk membuka Level 3.');
         }
 
-        if (level3Score < 80) {
-            lockLevel('level4', 'Anda harus memperoleh skor minimal 50 di Level 3 untuk membuka Level 4.');
+        if (level3Score < 140) {
+            lockLevel('level4', 'Anda harus memperoleh skor minimal 140 di Level 3 untuk membuka Level 4.');
         }
     }
 

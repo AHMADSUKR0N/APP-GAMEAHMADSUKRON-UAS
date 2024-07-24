@@ -84,7 +84,7 @@ function startGame() {
             clearInterval(timerInterval);
             alert('Game Over! Waktu Habis.');
             showScore();
-            window.location.href = 'frontpage.html';
+            window.location.replace("frontpage.html");
         }
     }, 1000);
 }
@@ -154,7 +154,7 @@ function continueGame() {
         timer = 120; // Reset timer for the next level
         startGame();
     } else {
-        window.location.href = 'level.html';
+        window.location.replace("level.html");
     }
 }
 
